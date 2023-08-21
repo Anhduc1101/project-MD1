@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cart.css" .css>
+</head>
+<!-- <a href="../product/product.html"></a> -->
+<body>
+    <h2>Thông tin giỏ hàng của bạn</h2>
+    <div class="container">
+        <table class="cart">
+            <thead>
+                <tr>
+                    <th>Tên sản phẩm</th>
+                    <th>Giá</th>
+                    <th>Số lượng</th>
+                    <th>Thành tiền</th>
+                    <th> </th>
+                </tr>
+            </thead>
+            <tbody id="table_body">
+                <!-- <tr>
+                    <td>
+                        <div>
+                            <img src="../../image/cigarCuba/Cohiba-Siglo-VI.jpg" alt="Sản phẩm 1">
+                            <h4>Xì gà Nicaragua</h4>
+                            <p>Oliva-Serie-V-Maduro-Torpedo</p>
+                        </div>
+                    </td>
+                    <td>200.000 đ</td>
+                    <td>
+                        <input style="text-align: center; width: 30px;height: 20px;" value="1" type="number" min="1">
+                        điếu
+                    </td>
+                    <td>200.000 đ</td>
+                    <td>
+                        <button onclick="editCart()" class="edit">Edit</button>
+                        <button onclick="deleteCart()" class="delete">Delete</button>
+                    </td>
+                </tr> -->
+            </tbody>
+            <tfoot id="table_footer">
+                <tr>
+                    <td>
+                        <button onclick="continueToBuy()" >Tiếp tục mua hàng</button>
+                    </td>
+                    <td colspan="2" style="margin: 0 auto;"> Tổng tiền </td>
+                    <td id="totalPay"><strong></strong></td>
+                    <td>
+                        <button onclick="pay()" class="pay">Thanh toán</button>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+    <script src="./cart.js"></script>
+    <a href="../../image/cigarCuba/alecBradlyPresendo.jpg"></a>
+</body>
+
+</html>

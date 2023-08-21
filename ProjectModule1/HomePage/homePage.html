@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="homePage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <header>
+        <img src="../image/anhBackround/cigar-patel10.webp" alt="">
+        <!-- <a href="../image/cigarCuba/323699068_1611498059301836_626531507128450897_n.jpg"></a> -->
+        <!-- <video src="../image/anhBackround/istockphoto-1262300166-640_adpp_is.mp4"></video> -->
+    </header>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><img src="/Module1/HTML/ProjectModule1/image/logo/logo-cigar_1.png" alt="" style="padding-top: 0;">
+                </li>
+                <li><input type="text" placeholder="Tìm Kiếm Cigar..."><i class="fa-solid fa-magnifying-glass"></i></li>
+                <li><a href="../User/cart/cart.html"><button><i class="fa-solid fa-cart-shopping"> </i>&nbsp;Giỏ
+                            Hàng</button></a></li>
+                <li><a href="#">Lịch sử đơn hàng</a></li>
+                <li>
+                    <div class="hotLine">
+                        <img src="/Module1/HTML/ProjectModule1/image/iconHeader/phone_318-1028.avif"
+                            style="width: 40px;height: 40px; padding-top: 0;">&nbsp;
+                        <ul>
+                            <li><span>Hotline</span></li>
+                            <li><a href="">0966633894</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li id="btn_login" class="login"><a href="../User/logIn/userLogin.html">Đăng Nhập</a></li>
+                <li id="btn_register" class="register"><a href="../User/register/userRegisterForm.html">Đăng Ký</a></li>
+                <div id="loggedInfo">
+                    <img id="userImg" src="../image/spKhac/eladioDiaz.jpg" 
+                        style="width: 40px;height: 40px; padding-top: 0 !important;">
+                    <span id="username">nguyen anh duc</span>
+                    <a href="../User/logIn/userLogin.html"><i class="fa-solid fa-right-from-bracket"></i></a>
+                </div>
+            </ul>
+        </div>
+    </nav>
+    <!-- <a href="../HomePage/OIP.jpg"></a> -->
+
+    <div class="menuProducts">
+        <ul>
+            <li>
+                <a href="#">Trang chủ</a>
+            </li>
+            <li><a href="#">Cigar Cuba</a>
+                <ul>
+                    <li><a href="#">Cohiba Siglo II</a></li>
+                    <li><a href="#">Romeo y Julieta No. 2</a></li>
+                    <li><a href="#">Montecristo No. 4</a></li>
+                    <li><a href="#">Partagas Serie D No. 4</a></li>
+                    <li><a href="#">H. Upmann Magnum 46</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Cigar Dominican</a>
+                <ul>
+                    <li><a href="#">Davidoff Grand Cru No. 3</a></li>
+                    <li><a href="#">Arturo Fuente Hemingway</a></li>
+                    <li><a href="#">Ashton Classic Corona</a></li>
+                    <li><a href="#">Manucado .de Rothschild</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Cigar Honduras</a>
+                <ul>
+                    <li><a href="#">Rocky Patel Vintage 1990</a></li>
+                    <li><a href="#">Alec Bradley Prensado</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Cigar Nicaragua</a>
+                <ul>
+                    <li><a href="#">Padron 1964 Anniversary</a></li>
+                    <li><a href="#">Oliva Serie V Melanio</a></li>
+                    <li><a href="#">My Father Le Bijou 1922</a></li>
+                    <li><a href="#">La Aroma de Cuba </a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div id="slideSlogan">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="../image/slide/slide1.jpg">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="../image/slide/slide2.jpg">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="../image/slide/slide3.jpg">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+
+        </div>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+    <a href="../image/anhBackround/-bảy-màu-sắc-của-lá-wrapper-xì-gà-cigar_1584380337.jpg"></a>
+    <!-- slide Products Outstandings -->
+    <div class="sliderMid">
+        <h2>Sản Phẩm Nổi Bật</h2>
+        <div class="sliderProduct">
+            <!-- <div class="sliderProductBox">
+                <a href="product1.html">
+                    <div class="product-image">
+                        <img src="../image/cigarCuba/alecBradlyPresendo.jpg">
+                    </div>
+                </a>
+                <div class="product-details">
+                    <h4 class="product-name">Product 1</h4>
+                    <p class="product-price">$19.99</p>
+                </div>
+                <div class="add-to-cart">
+                    <button>Thêm vào giỏ hàng</button>
+                </div>
+            </div> -->
+            <a href="../User/product/product.html"></a>
+        </div>
+    </div>
+
+    <!-- slide New Products Outstandings -->
+    <div class="swiper-container">
+        <h2 style="text-align: center;font-size: 50px;padding-bottom: 50px;">Một số sản phẩm khác</h2>
+        <div class="swiper-wrapper">
+            <!-- <div class ="swiper-slide">
+                <a href="#">
+                    <img src="../image/cigarCuba/Arturo-Fuente-Hemingway-Signature__74945.jpg">
+                    <h6>Arturo-Fuente-Hemingway-Signature</h6>
+                </a>
+            </div> -->
+
+            <!--*-->
+        </div>
+    </div>
+
+    <div class="logo">
+        <h2 style="text-align: center;font-size: 50px;padding-bottom: 30px;">Một số thương hiệu xì gà nổi tiếng</h2>
+        <div class="logos">
+            <img style="height: 150px; width: 150px;object-fit: cover;" src="../image/New folder/DIPLOMATICOS-logo.jpg"
+                alt="">
+            <img style="height: 150px; width: 150px;" src="../image/New folder/juanlopezlogo36.jpg" alt="">
+            <!-- <img style="height: 150px; width: 150px;object-fit: cover;" src="../image/New folder/Logo_Bolivar.jpg" alt=""> -->
+            <img style="" src="../image/New folder/logo_cohiba-bg-1.png" alt="">
+            <img style="height: 150px; width: 150px;" src="../image/New folder/Logo_Punch.jpg" alt="">
+            <img style="height: 150px; width: 150px;" src="../image/New folder/Logo_Trinidad.jpg" alt="">
+            <!-- <img style="height: 150px; width: 150px;" src="../image/New folder/Vegueros-gold-auf-schwarz.jpg" alt=""> -->
+            <img style="height: 150px; width: 150px;" src="../image/New folder/XIGAVIP.COM_MONTECRISTO-LOGO.jpg" alt="">
+            <!-- <img style="height: 150px; width: 150px;" src="../image/New folder/DIPLOMATICOS-logo.jpg" alt=""> -->
+        </div>
+
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h4 class="footer-heading">Về chúng tôi</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Email:nguyenanhduc1101@gmail.com</a></li>
+                    <li><a href="#">Liên hê</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4 class="footer-heading">Giới thiệu</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Dịch vụ</a></li>
+                    <li><a href="#">Chính sách bảo mật</a></li>
+                    <!-- <li><a href="#">Web Design</a></li> -->
+                    <!-- <li><a href="#">Tư vấn</a></li> -->
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4 class="footer-heading">Hội xì gà học</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Nguyễn Anh Đức</a></li>
+                    <li><a href="#">Macolo Team's Members</a></li>
+                    <!-- <li><a href="#">Whitepapers</a></li> -->
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4 class="footer-heading">Theo dõi chúng tôi</h4>
+                <ul class="footer-social-links">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="homePage.Js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../register/userRegisterForm.css">
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html>
+
+    <head>
+    </head>
+
+    <body>
+        <div class="container">
+            <h2>Register Form</h2>
+            <form method="post" action="process_login.php">
+                <div class="form-group">
+                    <label for="fullname">Họ và tên người dùng:</label>
+                    <input type="text" id="fullname" fullname="fullname" >
+                    <span id="errorFullname" style="color: red;"  ></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="username">Tên đăng nhập:</label>
+                    <input type="text" id="username" name="username" >
+                    <span id="errorUsername" style="color: red;"  ></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" >
+                    <span id="errorEmail" style="color: red;"  ></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Mật khẩu:</label>
+                    <input type="password" id="password" name="password" >
+                    <span id="errorPassword" style="color: red;"  ></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="confirmPassword">Nhập lại mật khẩu:</label>
+                    <input type="password" id="confirmPassword" name="confirm_password" >
+                    <span id="errorConfirmPassword" style="color: red;"  ></span>
+                </div>
+
+                <div class="avatar">
+                    <label for="avatar">Avatar:</label> <br>
+                    <input type="file" id="avatar" name="avatar" >
+                </div>
+
+                <div class="form-group">
+                    <span id="error" style="color: red;">Bạn đã có tài khoản? 
+                        <a href="../logIn/userLogin.html">Đăng nhập tại đây</a></span>
+                </div>
+
+                <div class="form-group">
+                    <input style="font-size: 20px;" type="button" value="Đăng ký" onclick="handleLogin()" >
+                </div>
+            </form>
+        </div>
+
+        <script src="./userRegisterForm.js">
+        </script>
+    </body>
+
+    </html>
+</body>
+
+</html>

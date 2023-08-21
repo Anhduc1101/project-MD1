@@ -1,0 +1,89 @@
+* {
+    /* reset css */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-image: url(../../image/anhBackround/cigar-locker-new-run--064_large.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 1000px rgba(247, 92, 2, 0.6);
+    margin-top: 100px;
+}
+
+/* *************************nav******************** */
+
+.card {
+    display: flex;
+    padding-top: 20px;
+    width: 650px;
+    height: 320px;
+    background-color: #888;
+    border-radius: 5px;
+}
+
+.infoLeft {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: 888;
+}
+
+.mainPic {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.mainPic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.productDescription {
+    margin-bottom: 20px;
+}
+
+.productDescription strong {
+    font-weight: bold;
+}
+
+.quantity {
+    margin-bottom: 20px;
+}
+
+.addToCart {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.addToCart:hover {
+    scale: 1.1;
+}
